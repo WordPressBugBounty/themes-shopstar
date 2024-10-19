@@ -1,0 +1,105 @@
+
+.block-editor-page .wp-block {
+	max-width: 720px;
+	max-width: 1140px;
+}
+.block-editor-page .wp-block[data-align="wide"] {
+	/*
+	max-width: 1140px;
+	*/
+}
+.block-editor-page .wp-block[data-align="full"] {
+  max-width: none;
+}
+
+.block-editor-page .editor-styles-wrapper {
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+}
+
+/* Headings */
+.editor-post-title__block .editor-post-title__input,
+.edit-post-visual-editor .editor-block-list__block h1.mce-content-body,
+.edit-post-visual-editor .editor-block-list__block h2.mce-content-body,
+.edit-post-visual-editor .editor-block-list__block h3.mce-content-body,
+.edit-post-visual-editor .editor-block-list__block h4.mce-content-body,
+.edit-post-visual-editor .editor-block-list__block h5.mce-content-body,
+.edit-post-visual-editor .editor-block-list__block h6.mce-content-body,
+.edit-post-visual-editor h1,
+.edit-post-visual-editor h2,
+.edit-post-visual-editor h3,
+.edit-post-visual-editor h4,
+.edit-post-visual-editor h5,
+.edit-post-visual-editor h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #000000;
+	line-height: 1.0em;
+}
+
+.editor-post-title__block .editor-post-title__input,
+.edit-post-visual-editor .editor-block-list__block h1.mce-content-body,
+.edit-post-visual-editor h1 {
+    font-size: 20px;
+    margin-bottom: 0.67em;
+	padding-bottom: 19px !important;
+	text-align: center;
+}
+
+.editor-post-title__block .editor-post-title__input:after,
+.edit-post-visual-editor .editor-block-list__block h1.mce-content-body:after,
+.edit-post-visual-editor h1:after {
+	bottom: -20px;
+	width: 74px;
+	content: "";
+	display: block;
+	height: 1px;
+	position: relative;
+	background-color: #828387;
+	margin: 0 auto;
+}
+
+.edit-post-visual-editor .editor-block-list__block h2.mce-content-body,
+.edit-post-visual-editor h2 {
+	font-size: 16px;
+    margin-bottom: .65em;
+}
+
+.edit-post-visual-editor .editor-block-list__block h3.mce-content-body,
+.edit-post-visual-editor h3 {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.edit-post-visual-editor .editor-block-list__block h4.mce-content-body,
+.edit-post-visual-editor h4 {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.edit-post-visual-editor .editor-block-list__block h5.mce-content-body,
+.edit-post-visual-editor h5 {
+    font-size: 13px;
+	margin-bottom: 30px;
+}
+
+.edit-post-visual-editor .editor-block-list__block h6.mce-content-body,
+.edit-post-visual-editor h6 {
+    font-size: 12px;
+	margin-bottom: 30px;
+}
+
+/* Body Font */
+.edit-post-visual-editor .editor-block-list__block-edit,
+.edit-post-visual-editor,
+.editor-styles-wrapper div.wp-block,
+.editor-styles-wrapper div.wp-block p,
+.editor-styles-wrapper div.wp-block-post-content p,
+.editor-styles-wrapper ul.wp-block {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #4f4f4f;
+	line-height: 1.5;
+}
