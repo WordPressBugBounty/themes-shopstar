@@ -6,7 +6,7 @@
  *
  * @package shopstar
  */
-define( 'SHOPSTAR_THEME_VERSION' , '1.1.46' );
+define( 'SHOPSTAR_THEME_VERSION' , '1.1.47' );
 
 global $shopstar_demo_slides;
 
@@ -608,10 +608,12 @@ if ( ! function_exists( 'wp_body_open' ) ) :
 endif;
 
 // Disable WooCommerce Ajax Cart Fragments
-function shopstar_disable_woocommerce_cart_fragments() { 
-	if ( !get_theme_mod( 'shopstar-woocommerce-enable-ajax-cart-fragments', customizer_library_get_default( 'shopstar-woocommerce-enable-ajax-cart-fragments' ) ) ) {
-		wp_dequeue_script( 'wc-cart-fragments' );
-	} 
+if ( ! function_exists( 'shopstar_disable_woocommerce_cart_fragments' ) ) {
+	function shopstar_disable_woocommerce_cart_fragments() { 
+		if ( !get_theme_mod( 'shopstar-woocommerce-enable-ajax-cart-fragments', customizer_library_get_default( 'shopstar-woocommerce-enable-ajax-cart-fragments' ) ) ) {
+			wp_dequeue_script( 'wc-cart-fragments' );
+		} 
+	}
 }
 add_action( 'wp_enqueue_scripts', 'shopstar_disable_woocommerce_cart_fragments', 11 );
 
@@ -627,7 +629,7 @@ add_action( 'woocommerce_before_shop_loop_item_title', function() {
 	}
 }, 11 );
 
-if (!function_exists('shopstar_woocommerce_product_thumbnails_columns')) {
+if ( ! function_exists( 'shopstar_woocommerce_product_thumbnails_columns' ) ) {
 	function shopstar_woocommerce_product_thumbnails_columns() {
 		return 3;
 	}
@@ -675,39 +677,43 @@ add_filter( 'excerpt_more', 'shopstar_excerpt_more' );
 /**
  * Adjust is_home query if shopstar-slider-categories is set
  */
-function shopstar_set_blog_queries( $query ) {
-
-	$slider_categories = get_theme_mod( 'shopstar-slider-categories' );
-    $slider_type = get_theme_mod( 'shopstar-slider-type', customizer_library_get_default( 'shopstar-slider-type' ) );
+if ( ! function_exists( 'shopstar_set_blog_queries' ) ) {
+	function shopstar_set_blog_queries( $query ) {
 	
-	if ( $slider_categories != '' && $slider_type == 'shopstar-slider-default' ) {
-	
-		$is_front_page = ( $query->get('page_id') == get_option('page_on_front') || is_front_page() );
-	
-		if ( count($slider_categories) > 0) {
-			// do not alter the query on wp-admin pages and only alter it if it's the main query
-			if ( !is_admin() && !$is_front_page  && $query->get('id') != 'slider' || !is_admin() && $is_front_page && $query->get('id') != 'slider' ){
-				$query->set( 'category__not_in', $slider_categories );
+		$slider_categories = get_theme_mod( 'shopstar-slider-categories' );
+	    $slider_type = get_theme_mod( 'shopstar-slider-type', customizer_library_get_default( 'shopstar-slider-type' ) );
+		
+		if ( $slider_categories != '' && $slider_type == 'shopstar-slider-default' ) {
+		
+			$is_front_page = ( $query->get('page_id') == get_option('page_on_front') || is_front_page() );
+		
+			if ( count($slider_categories) > 0) {
+				// do not alter the query on wp-admin pages and only alter it if it's the main query
+				if ( !is_admin() && !$is_front_page  && $query->get('id') != 'slider' || !is_admin() && $is_front_page && $query->get('id') != 'slider' ){
+					$query->set( 'category__not_in', $slider_categories );
+				}
 			}
 		}
+	
 	}
-
 }
 add_action( 'pre_get_posts', 'shopstar_set_blog_queries' );
 
-function shopstar_filter_recent_posts_widget_parameters( $params ) {
-	
-	$slider_categories = get_theme_mod( 'shopstar-slider-categories' );
-	$slider_type = get_theme_mod( 'shopstar-slider-type', customizer_library_get_default( 'shopstar-slider-type' ) );
-	
-	if ( $slider_categories != '' && $slider_type == 'shopstar-slider-default' ) {
-		if ( count($slider_categories) > 0) {
-			// do not alter the query on wp-admin pages and only alter it if it's the main query
-			$params['category__not_in'] = $slider_categories;
+if ( ! function_exists( 'shopstar_filter_recent_posts_widget_parameters' ) ) {
+	function shopstar_filter_recent_posts_widget_parameters( $params ) {
+		
+		$slider_categories = get_theme_mod( 'shopstar-slider-categories' );
+		$slider_type = get_theme_mod( 'shopstar-slider-type', customizer_library_get_default( 'shopstar-slider-type' ) );
+		
+		if ( $slider_categories != '' && $slider_type == 'shopstar-slider-default' ) {
+			if ( count($slider_categories) > 0) {
+				// do not alter the query on wp-admin pages and only alter it if it's the main query
+				$params['category__not_in'] = $slider_categories;
+			}
 		}
+		
+		return $params;
 	}
-	
-	return $params;
 }
 add_filter('widget_posts_args','shopstar_filter_recent_posts_widget_parameters');
 
