@@ -12,12 +12,15 @@ span.premium-link {
 }
 
 .otb-notice {
-	border-left-color: #1d1d1b;
-	border-left-color: #cd2728;
+	border-left-color: #000000;
 	display: grid;
     grid-template-columns: 150px auto;
     padding-top: 10px;
     padding-bottom: 12px;	
+}
+
+.otb-notice.red {
+	border-left-color: #cd2728;
 }
 
 .otb-notice .container {
@@ -45,6 +48,10 @@ span.premium-link {
 .otb-notice h3 {
 	margin: 0;
 	color: #1d1d1b;
+}
+
+.otb-notice.red h3 {
+	margin: 0;
 	color: #cd2728;
 }
 
@@ -61,7 +68,9 @@ span.premium-link {
 .otb-notice .button-primary {
 	background: #1d1d1b;
 	border-color: #1d1d1b;
-	
+}
+
+.otb-notice.red .button-primary {
 	background: #cd2728;
 	border-color: #cd2728;
 }
@@ -70,7 +79,10 @@ span.premium-link {
 .otb-notice .button-primary:focus {
 	background: rgba(0, 0, 0, 0.7);
 	border-color: rgba(0, 0, 0, 0.7);
-	
+}
+
+.otb-notice.red .button-primary:hover,
+.otb-notice.red .button-primary:focus {
 	background: rgba(205, 39, 40, 0.8);
 	border-color: rgba(205, 39, 40, 0.8);
 }
@@ -79,16 +91,21 @@ span.premium-link {
 	background-color: #FFFFFF;
 	color: #1d1d1b;
 	border-color: #1d1d1b;
-
-	color: #cd2728;
-	border-color: #cd2728;
 }
 
 .otb-notice .button-dismiss:hover,
 .otb-notice .button-dismiss:focus {
 	color: #1d1d1b !important;
 	border-color: rgba(29, 29, 27, 0.8) !important;
-	
+}
+
+.otb-notice.red .button-dismiss {
+	color: #cd2728;
+	border-color: #cd2728;
+}
+
+.otb-notice.red .button-dismiss:hover,
+.otb-notice.red .button-dismiss:focus {
 	color: #cd2728 !important;
 	border-color: #cd2728 !important;
 }
