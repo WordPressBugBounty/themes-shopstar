@@ -6,7 +6,7 @@
  *
  * @package shopstar
  */
-define( 'SHOPSTAR_THEME_VERSION' , '1.1.48' );
+define( 'SHOPSTAR_THEME_VERSION' , '1.1.49' );
 
 global $shopstar_demo_slides;
 
@@ -329,20 +329,20 @@ function shopstar_admin_notice() {
 	$user_id = get_current_user_id();
 	
 	$message = array (
-		'id' => 21,
-		'heading' => 'Black Friday Sale',
-		'text' => '<a href="https://www.outtheboxthemes.com/go/theme-notification-black-friday-2024-wordpress-themes/">Get 40% off any of our Premium WordPress themes this Black Friday!</a>',
-		//'text' => '<a href="https://www.outtheboxthemes.com/go/theme-notification-christmas-day-2023-wordpress-themes/"><span style="font-size: 20px">🎄</span>Get 20% off any of our Premium WordPress themes until Christmas Day!<span style="font-size: 20px">🎄</span></a>',
-		'link' => 'https://www.outtheboxthemes.com/go/theme-notification-black-friday-2024-wordpress-themes/'
+		'id' => 22,
+		'heading' => 'Christmas Sale',
+		//'text' => '<a href="https://www.outtheboxthemes.com/go/theme-notification-black-friday-2024-wordpress-themes/">Get 40% off any of our Premium WordPress themes this Black Friday!</a>',
+		'text' => '<a href="https://www.outtheboxthemes.com/go/theme-notification-christmas-day-2024-wordpress-themes/" target="_blank"><span style="font-size: 20px">🎄</span>Get 20% off any of our Premium WordPress themes until Christmas Day!<span style="font-size: 20px">🎄</span></a>',
+		'link' => 'https://www.outtheboxthemes.com/go/theme-notification-christmas-day-2024-wordpress-themes/'
 	);
 	
 	if ( !empty( $message['text'] ) && !get_user_meta( $user_id, 'shopstar_admin_notice_' .$message['id']. '_dismissed' ) ) {
-		$class = 'notice otb-notice notice-success is-dismissible';
-		printf( '<div class="%1$s"><img src="https://www.outtheboxthemes.com/wp-content/uploads/2017/12/logo-black.png" class="logo" /><h3>%2$s</h3><p>%3$s</p><p style="margin:0;"><a class="button button-primary" href="%4$s" target="_blank">Read More</a> <a class="button button-dismiss" href="?panoramic-admin-notice-dismissed&panoramic-admin-notice-id=%5$s">Dismiss</a></p></div>', esc_attr( $class ), $message['heading'], $message['text'], $message['link'], $message['id'] );
+		$class = 'notice otb-notice red notice-success is-dismissible';
+		printf( '<div class="%1$s"><img src="https://www.outtheboxthemes.com/wp-content/uploads/2020/12/logo-red.png" class="logo" /><h3>%2$s</h3><p>%3$s</p><p style="margin:0;"><a class="button button-primary" href="%4$s" target="_blank">Read More</a> <a class="button button-dismiss" href="?panoramic-admin-notice-dismissed&panoramic-admin-notice-id=%5$s">Dismiss</a></p></div>', esc_attr( $class ), $message['heading'], $message['text'], $message['link'], $message['id'] );
 	}
 }
 
-if ( date('Y-m-d') >= '2024-11-29' && date('Y-m-d') <= '2024-12-02' ) {
+if ( date('Y-m-d') >= '2024-11-29' && date('Y-m-d') <= '2024-12-25' ) {
 	add_action( 'admin_notices', 'shopstar_admin_notice' );
 }
 

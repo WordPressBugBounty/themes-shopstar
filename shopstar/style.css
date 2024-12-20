@@ -4,7 +4,7 @@ Theme URI: https://www.outtheboxthemes.com/wordpress-themes/shopstar/
 Author: Out the Box
 Author URI: https://www.outtheboxthemes.com/
 Description: A Classic Never Goes out of Style. Shopstar! is a super stylish, fully responsive, easy to use WordPress theme perfect for an online store, fashion website or blog. Its minimalist design features let your products and visuals do the talking. Integrated with powerful plugins like SiteOrigin's Page Builder, WPForms and Recent Posts Widget Extended, as well as being Woocommerce-ready - it's easily customisable and ready to go. Download it today and get your customers shopping up a storm!
-Version: 1.1.48
+Version: 1.1.49
 Tested up to: 6.7
 Requires at least: 4.7
 Requires PHP: 5.3
@@ -74,6 +74,7 @@ html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -4161,6 +4162,12 @@ body.mobile-device .slider-container.default .pagination {
 }
 
 /* Responsive */
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
 
 @media screen and (max-width: 1184px) {
     .padder {
