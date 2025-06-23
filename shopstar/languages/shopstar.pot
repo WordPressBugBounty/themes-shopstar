@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: shopstar\n"
-"POT-Creation-Date: 2025-06-08 17:32+0200\n"
+"POT-Creation-Date: 2025-06-23 11:04+0200\n"
 "PO-Revision-Date: 2016-11-08 23:57+0200\n"
 "Last-Translator: \n"
 "Language-Team: Out the Box\n"
@@ -299,7 +299,7 @@ msgid ""
 "around body text."
 msgstr ""
 
-#: customizer/customizer-options.php:323 functions.php:801
+#: customizer/customizer-options.php:323 functions.php:805
 msgid "WooCommerce"
 msgstr ""
 
@@ -499,7 +499,7 @@ msgstr ""
 msgid "Shopstar! adds custom styling to support external plugins:"
 msgstr ""
 
-#: customizer/customizer-options.php:820 functions.php:796
+#: customizer/customizer-options.php:820 functions.php:800
 msgid "BookingPress"
 msgstr ""
 
@@ -615,31 +615,31 @@ msgstr ""
 msgid "Footer"
 msgstr ""
 
-#: functions.php:649
+#: functions.php:653
 msgid "Out of Stock"
 msgstr ""
 
-#: functions.php:771
+#: functions.php:775
 msgid "Super Simple Slider"
 msgstr ""
 
-#: functions.php:776
+#: functions.php:780
 msgid "Elementor"
 msgstr ""
 
-#: functions.php:781
+#: functions.php:785
 msgid "SiteOrigin Widgets Bundle"
 msgstr ""
 
-#: functions.php:786
+#: functions.php:790
 msgid "Beam me up Scotty"
 msgstr ""
 
-#: functions.php:791
+#: functions.php:795
 msgid "WPForms"
 msgstr ""
 
-#: functions.php:806
+#: functions.php:810
 msgid "MailChimp for WordPress"
 msgstr ""
 

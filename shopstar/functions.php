@@ -6,7 +6,7 @@
  *
  * @package shopstar
  */
-define( 'SHOPSTAR_THEME_VERSION' , '1.1.52' );
+define( 'SHOPSTAR_THEME_VERSION' , '1.1.53' );
 
 global $shopstar_demo_slides;
 
@@ -405,6 +405,10 @@ function shopstar_scripts() {
 	
 	if ( shopstar_is_woocommerce_activated() ) {
 		wp_enqueue_style( 'shopstar-woocommerce-custom', get_template_directory_uri().'/library/css/woocommerce-custom.css', array(), SHOPSTAR_THEME_VERSION );
+	}
+	
+	if ( class_exists( 'Wp_Travel_Engine' ) ) {
+		wp_enqueue_style( 'shopstar-wp-travel-engine', get_template_directory_uri().'/library/css/wp-travel-engine.css', array(), SHOPSTAR_THEME_VERSION );
 	}
 	
 	wp_enqueue_script( 'shopstar-navigation', get_template_directory_uri() . '/library/js/navigation.js', array(), '20120206', true );
