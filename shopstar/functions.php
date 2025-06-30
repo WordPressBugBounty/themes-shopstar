@@ -6,7 +6,7 @@
  *
  * @package shopstar
  */
-define( 'SHOPSTAR_THEME_VERSION' , '1.1.53' );
+define( 'SHOPSTAR_THEME_VERSION' , '1.1.54' );
 
 global $shopstar_demo_slides;
 
@@ -138,6 +138,9 @@ function shopstar_setup() {
 }
 endif; // shopstar_setup
 add_action( 'after_setup_theme', 'shopstar_setup' );
+
+// Unhide modern markup setting in admin
+add_filter( 'wpforms_admin_settings_modern_markup_register_field_is_hidden', '__return_false' );
 
 if ( ! function_exists( 'shopstar_fonts_url' ) ) :
 	/**
