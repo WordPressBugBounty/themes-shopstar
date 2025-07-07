@@ -317,6 +317,7 @@ function shopstar_customizer_library_build_styles() {
 				.shopstar-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
 				.shopstar-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
     			.shopstar-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a,
+    			.shopstar-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-title,
 				input[type="button"],
 				input[type="reset"],
 				input[type="submit"],
@@ -374,6 +375,7 @@ function shopstar_customizer_library_build_styles() {
 				.shopstar-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
 				.shopstar-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
 	    		.shopstar-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a,
+	    		.shopstar-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-title,
 				input[type="button"],
 				input[type="reset"],
 				input[type="submit"],
@@ -408,6 +410,7 @@ function shopstar_customizer_library_build_styles() {
 				.shopstar-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
 				.shopstar-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
     			.shopstar-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a,
+    			.shopstar-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-title,
 				ul.product_list_widget li .product-title,
 				.widget_woocommerce_products .widget-title,
 				.content-area .widget-title,
@@ -471,7 +474,8 @@ function shopstar_customizer_library_build_styles() {
 				.woocommerce .woocommerce-ordering select,
 				.woocommerce-page .woocommerce-ordering select,
 				.shopstar-page-builders-use-theme-styles .elementor-widget-text-editor,
-				.shopstar-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description'
+				.shopstar-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description,
+	    		.shopstar-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-description'
     		),
     		'declarations' => array(
     			'font-family' => $fontstack
@@ -574,7 +578,8 @@ function shopstar_customizer_library_build_styles() {
 				.woocommerce div.product p.price del,
 				article .entry-meta,
     			.shopstar-page-builders-use-theme-styles .elementor-widget-text-editor,
-				.shopstar-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description'
+				.shopstar-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description,
+    			.shopstar-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-description'
     		),
     		'declarations' => array(
     			'color' => $sanfontcolor
