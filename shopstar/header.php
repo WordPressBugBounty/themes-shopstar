@@ -36,6 +36,6 @@
 	?>
 		
 	<div id="content" class="site-content">
-		<a name="site-content"></a>
+		<a id="site-content" name="site-content" tabindex="-1"></a>
 		<div class="container">
 			<div class="padder">

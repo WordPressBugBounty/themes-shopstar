@@ -911,6 +911,24 @@ function shopstar_customizer_library_options() {
         'default' => __( 'The page you were looking for cannot be found!', 'shopstar')
     );
 
+    // Privacy & Legal Settings
+    $section = 'shopstar-privacy-and-legal';
+    
+    $sections[] = array(
+    	'id' => $section,
+    	'title' => __( 'Privacy & Legal', 'shopstar' ),
+    	'priority' => '50'
+    );
+
+	$options['shopstar-show-recaptcha-badge'] = array(
+    	'id' => 'shopstar-show-recaptcha-badge',
+    	'label'   => __( 'Show reCAPTCHA badge', 'shopstar' ),
+    	'section' => $section,
+    	'type'    => 'checkbox',
+    	'default' => 1,
+		'description' => __( '<p>Uncheck this only if you have added the required Google attribution text near your contact forms</p>', 'shopstar' )
+	);
+
     // Gutenberg Settings
     $section = 'shopstar-gutenberg';
     

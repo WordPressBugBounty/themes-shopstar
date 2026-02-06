@@ -44,7 +44,7 @@ add_action( 'admin_enqueue_scripts', 'shopstar_load_upgrade_page_scripts' );
 function shopstar_render_upgrade_page() {
 
 	if ( isset( $_GET['action'] ) ) {
-		$action = $_GET['action'];
+		$action = sanitize_text_field( $_GET['action'] );
 	} else {
 		$action = 'view-page';
 	}

@@ -1,25 +1,46 @@
-#, fuzzy
+# Copyright (C) 2025 Out the Box
+# This file is distributed under the GNU General Public License v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: shopstar\n"
-"POT-Creation-Date: 2025-07-07 10:17+0200\n"
-"PO-Revision-Date: 2016-11-08 23:57+0200\n"
-"Last-Translator: \n"
-"Language-Team: Out the Box\n"
-"Language: en_US\n"
+"Project-Id-Version: Shopstar! 1.1.56\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/shopstar\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_x:1,2c;_n:2,1;__ngettext:1,2;"
-"__ngettext_noop:1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;_n_noop:1,2;"
-"_ex:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_nx:4c,1,2\n"
-"X-Poedit-SearchPath-0: .\n"
+"POT-Creation-Date: 2025-10-31T12:39:41+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: shopstar\n"
 
-#: 404.php:25 library/template-parts/content-none.php:27
+#. Theme Name of the theme
+#: style.css
+msgid "Shopstar!"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.outtheboxthemes.com/wordpress-themes/shopstar/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A Classic Never Goes out of Style. Shopstar! is a super stylish, fully responsive, easy to use WordPress theme perfect for an online store, fashion website or blog. Its minimalist design features let your products and visuals do the talking. Integrated with powerful plugins like SiteOrigin's Page Builder, WPForms and Recent Posts Widget Extended, as well as being Woocommerce-ready - it's easily customisable and ready to go. Download it today and get your customers shopping up a storm!"
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Out the Box"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.outtheboxthemes.com/"
+msgstr ""
+
+#: 404.php:25
+#: library/template-parts/content-none.php:27
 #: library/template-parts/content-none.php:37
 msgid "Back to Homepage"
 msgstr ""
@@ -32,15 +53,18 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: comments.php:40 comments.php:58
+#: comments.php:40
+#: comments.php:58
 msgid "Comment navigation"
 msgstr ""
 
-#: comments.php:43 comments.php:61
+#: comments.php:43
+#: comments.php:61
 msgid "Older Comments"
 msgstr ""
 
-#: comments.php:44 comments.php:62
+#: comments.php:44
+#: comments.php:62
 msgid "Newer Comments"
 msgstr ""
 
@@ -204,9 +228,7 @@ msgid "No Search Results Found Message"
 msgstr ""
 
 #: customizer/customizer-options.php:202
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with "
-"some different keywords."
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
 #: customizer/customizer-options.php:211
@@ -218,17 +240,11 @@ msgid "Choose a Slider"
 msgstr ""
 
 #: customizer/customizer-options.php:234
-msgid ""
-"<a href=\"https://www.outtheboxthemes.com/documentation/shopstar/"
-"homepage-slider/default-slider/\" rel=\"nofollow\" target=\"_blank"
-"\">Read a guide on how to set up the Default Slider</a>"
+msgid "<a href=\"https://www.outtheboxthemes.com/documentation/shopstar/homepage-slider/default-slider/\" rel=\"nofollow\" target=\"_blank\">Read a guide on how to set up the Default Slider</a>"
 msgstr ""
 
 #: customizer/customizer-options.php:242
-msgid ""
-"<a href=\"https://www.outtheboxthemes.com/documentation/shopstar/"
-"homepage-slider/slider-plugin/\" rel=\"nofollow\" target=\"_blank"
-"\">Read a guide on using a slider plugin</a>"
+msgid "<a href=\"https://www.outtheboxthemes.com/documentation/shopstar/homepage-slider/slider-plugin/\" rel=\"nofollow\" target=\"_blank\">Read a guide on using a slider plugin</a>"
 msgstr ""
 
 #: customizer/customizer-options.php:247
@@ -236,11 +252,7 @@ msgid "Slider Categories"
 msgstr ""
 
 #: customizer/customizer-options.php:250
-msgid ""
-"Select the categories of the posts you want to display in the slider. "
-"The featured image will be the slide image and the post content will "
-"display over it. Hold down the Ctrl (windows) / Command (Mac) button "
-"to select multiple categories."
+msgid "Select the categories of the posts you want to display in the slider. The featured image will be the slide image and the post content will display over it. Hold down the Ctrl (windows) / Command (Mac) button to select multiple categories."
 msgstr ""
 
 #: customizer/customizer-options.php:255
@@ -256,9 +268,7 @@ msgid "Slide Transition Speed"
 msgstr ""
 
 #: customizer/customizer-options.php:275
-msgid ""
-"The speed it takes to transition between slides in milliseconds. 1000 "
-"milliseconds equals 1 second."
+msgid "The speed it takes to transition between slides in milliseconds. 1000 milliseconds equals 1 second."
 msgstr ""
 
 #: customizer/customizer-options.php:280
@@ -274,11 +284,7 @@ msgid "Header Image"
 msgstr ""
 
 #: customizer/customizer-options.php:298
-msgid ""
-"Please note: The header image will not display on your site as the "
-"slider is currently enabled. To make the header image visible you will "
-"first need to disable the <a href=\"#shopstar-slider\" rel=\"tc-section"
-"\">slider</a>."
+msgid "Please note: The header image will not display on your site as the slider is currently enabled. To make the header image visible you will first need to disable the <a href=\"#shopstar-slider\" rel=\"tc-section\">slider</a>."
 msgstr ""
 
 #: customizer/customizer-options.php:307
@@ -286,20 +292,15 @@ msgid "Text"
 msgstr ""
 
 #: customizer/customizer-options.php:310
-msgid ""
-"<h1>Fashion is what you buy</h1><p>Style is what you do with it</"
-"p><p><a href=\"https://www.outtheboxthemes.com/wordpress-themes/"
-"shopstar/\" rel=\"nofollow\" target=\"_blank\" class=\"button\">Shop "
-"Now</a></p>"
+msgid "<h1>Fashion is what you buy</h1><p>Style is what you do with it</p><p><a href=\"https://www.outtheboxthemes.com/wordpress-themes/shopstar/\" rel=\"nofollow\" target=\"_blank\" class=\"button\">Shop Now</a></p>"
 msgstr ""
 
 #: customizer/customizer-options.php:311
-msgid ""
-"Use <h1></h1> or <h2></h2> tags around heading text and <p></p> tags "
-"around body text."
+msgid "Use <h1></h1> or <h2></h2> tags around heading text and <p></p> tags around body text."
 msgstr ""
 
-#: customizer/customizer-options.php:323 functions.php:808
+#: customizer/customizer-options.php:323
+#: functions.php:812
 msgid "WooCommerce"
 msgstr ""
 
@@ -308,11 +309,7 @@ msgid "Auto Update Header Cart"
 msgstr ""
 
 #: customizer/customizer-options.php:340
-msgid ""
-"This will auto-update the header cart as products are added or "
-"removed. <strong>Please note:</strong> If you are running a "
-"multilingual site then you should disable this setting for the header "
-"cart translations to function correctly"
+msgid "This will auto-update the header cart as products are added or removed. <strong>Please note:</strong> If you are running a multilingual site then you should disable this setting for the header cart translations to function correctly"
 msgstr ""
 
 #: customizer/customizer-options.php:355
@@ -320,9 +317,7 @@ msgid "Shop Links"
 msgstr ""
 
 #: customizer/customizer-options.php:359
-msgid ""
-"Display the My Account and Checkout links in the Top Bar when "
-"WooCommerce is active."
+msgid "Display the My Account and Checkout links in the Top Bar when WooCommerce is active."
 msgstr ""
 
 #: customizer/customizer-options.php:367
@@ -409,10 +404,7 @@ msgstr ""
 #: customizer/customizer-options.php:539
 #: customizer/customizer-options.php:642
 #: customizer/customizer-options.php:707
-msgid ""
-"<a href=\"https://www.outtheboxthemes.com/documentation/shopstar/fonts/"
-"preview-page/\" rel=\"nofollow\" target=\"_blank\">Struggling to find "
-"the right font? Read more about our theme fonts preview tool</a>"
+msgid "<a href=\"https://www.outtheboxthemes.com/documentation/shopstar/fonts/preview-page/\" rel=\"nofollow\" target=\"_blank\">Struggling to find the right font? Read more about our theme fonts preview tool</a>"
 msgstr ""
 
 #: customizer/customizer-options.php:547
@@ -466,9 +458,7 @@ msgid "Version"
 msgstr ""
 
 #: customizer/customizer-options.php:750
-msgid ""
-"Select the version of Font Awesome that you would like to use. "
-"<strong>Icon variation will occur between the versions.</strong>"
+msgid "Select the version of Font Awesome that you would like to use. <strong>Icon variation will occur between the versions.</strong>"
 msgstr ""
 
 #: customizer/customizer-options.php:758
@@ -499,7 +489,8 @@ msgstr ""
 msgid "Shopstar! adds custom styling to support external plugins:"
 msgstr ""
 
-#: customizer/customizer-options.php:820 functions.php:803
+#: customizer/customizer-options.php:820
+#: functions.php:807
 msgid "BookingPress"
 msgstr ""
 
@@ -507,7 +498,8 @@ msgstr ""
 msgid "Display page title on homepage"
 msgstr ""
 
-#: customizer/customizer-options.php:849 functions.php:279
+#: customizer/customizer-options.php:849
+#: functions.php:279
 msgid "Blog"
 msgstr ""
 
@@ -544,25 +536,36 @@ msgid "The page you were looking for cannot be found!"
 msgstr ""
 
 #: customizer/customizer-options.php:919
-msgid "Gutenberg"
+msgid "Privacy & Legal"
 msgstr ""
 
 #: customizer/customizer-options.php:925
+msgid "Show reCAPTCHA badge"
+msgstr ""
+
+#: customizer/customizer-options.php:929
+msgid "<p>Uncheck this only if you have added the required Google attribution text near your contact forms</p>"
+msgstr ""
+
+#. Template Name of the theme
+#: customizer/customizer-options.php:937
+msgid "Gutenberg"
+msgstr ""
+
+#: customizer/customizer-options.php:943
 msgid "Enable block-based widgets editor"
 msgstr ""
 
-#: customizer/customizer-options.php:936
+#: customizer/customizer-options.php:954
 msgid "Media"
 msgstr ""
 
-#: customizer/customizer-options.php:942
+#: customizer/customizer-options.php:960
 msgid "Crisp images"
 msgstr ""
 
-#: customizer/customizer-options.php:946
-msgid ""
-"<p>This will remove the default anti-aliasing done to scaled images by "
-"browsers creating a more crisp image.</p>"
+#: customizer/customizer-options.php:964
+msgid "<p>This will remove the default anti-aliasing done to scaled images by browsers creating a more crisp image.</p>"
 msgstr ""
 
 #: footer.php:38
@@ -572,29 +575,27 @@ msgstr ""
 
 #: functions.php:17
 #, php-format
-msgid ""
-"<h1>Fashion is what you buy</h1><p>Style is what you do with it</"
-"p><p><a href=\"%1$s\" target=\"_blank\" rel=\"nofollow\" class="
-"\"button no-bottom-margin\">%2$s</a></p>"
+msgid "<h1>Fashion is what you buy</h1><p>Style is what you do with it</p><p><a href=\"%1$s\" target=\"_blank\" rel=\"nofollow\" class=\"button no-bottom-margin\">%2$s</a></p>"
 msgstr ""
 
-#: functions.php:17 functions.php:21
+#: functions.php:17
+#: functions.php:21
 msgid "Shop Now"
 msgstr ""
 
 #: functions.php:21
 #, php-format
-msgid ""
-"<h2>Life isn't perfect</h2><p>But your outfit can be</p><p><a href="
-"\"%1$s\" target=\"_blank\" rel=\"nofollow\" class=\"button no-bottom-"
-"margin\">%2$s</a></p>"
+msgid "<h2>Life isn't perfect</h2><p>But your outfit can be</p><p><a href=\"%1$s\" target=\"_blank\" rel=\"nofollow\" class=\"button no-bottom-margin\">%2$s</a></p>"
 msgstr ""
 
 #: functions.php:74
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:281 functions.php:290 functions.php:300
+#. translators: accessibility text
+#: functions.php:281
+#: functions.php:290
+#: functions.php:300
 msgid "(opens in a new window)"
 msgstr ""
 
@@ -615,31 +616,31 @@ msgstr ""
 msgid "Footer"
 msgstr ""
 
-#: functions.php:656
+#: functions.php:660
 msgid "Out of Stock"
 msgstr ""
 
-#: functions.php:778
+#: functions.php:782
 msgid "Super Simple Slider"
 msgstr ""
 
-#: functions.php:783
+#: functions.php:787
 msgid "Elementor"
 msgstr ""
 
-#: functions.php:788
+#: functions.php:792
 msgid "SiteOrigin Widgets Bundle"
 msgstr ""
 
-#: functions.php:793
+#: functions.php:797
 msgid "Beam me up Scotty"
 msgstr ""
 
-#: functions.php:798
+#: functions.php:802
 msgid "WPForms"
 msgstr ""
 
-#: functions.php:813
+#: functions.php:817
 msgid "MailChimp for WordPress"
 msgstr ""
 
@@ -655,11 +656,13 @@ msgstr ""
 msgid "Install Plugins"
 msgstr ""
 
+#. translators: %s: plugin name.
 #: library/includes/class-tgm-plugin-activation.php:343
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr ""
 
+#. translators: %s: plugin name.
 #: library/includes/class-tgm-plugin-activation.php:345
 #, php-format
 msgid "Updating Plugin: %s"
@@ -669,68 +672,67 @@ msgstr ""
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: library/includes/class-tgm-plugin-activation.php:349
+#. translators: 1: plugin name(s).
+#: library/includes/class-tgm-plugin-activation.php:348
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/includes/class-tgm-plugin-activation.php:355
+#. translators: 1: plugin name(s).
+#: library/includes/class-tgm-plugin-activation.php:354
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/includes/class-tgm-plugin-activation.php:361
+#. translators: 1: plugin name(s).
+#: library/includes/class-tgm-plugin-activation.php:360
 #, php-format
-msgid ""
-"The following plugin needs to be updated to its latest version to "
-"ensure maximum compatibility with this theme: %1$s."
-msgid_plural ""
-"The following plugins need to be updated to their latest version to "
-"ensure maximum compatibility with this theme: %1$s."
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/includes/class-tgm-plugin-activation.php:367
+#. translators: 1: plugin name(s).
+#: library/includes/class-tgm-plugin-activation.php:366
 #, php-format
 msgid "There is an update available for: %1$s."
-msgid_plural ""
-"There are updates available for the following plugins: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/includes/class-tgm-plugin-activation.php:373
+#. translators: 1: plugin name(s).
+#: library/includes/class-tgm-plugin-activation.php:372
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
-msgid_plural ""
-"The following required plugins are currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/includes/class-tgm-plugin-activation.php:379
+#. translators: 1: plugin name(s).
+#: library/includes/class-tgm-plugin-activation.php:378
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
-msgid_plural ""
-"The following recommended plugins are currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/includes/class-tgm-plugin-activation.php:384
+#: library/includes/class-tgm-plugin-activation.php:383
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/includes/class-tgm-plugin-activation.php:389
+#: library/includes/class-tgm-plugin-activation.php:388
 msgid "Begin updating plugin"
 msgid_plural "Begin updating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/includes/class-tgm-plugin-activation.php:394
+#: library/includes/class-tgm-plugin-activation.php:393
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
@@ -750,21 +752,25 @@ msgid "Plugin activated successfully."
 msgstr ""
 
 #: library/includes/class-tgm-plugin-activation.php:401
+#: library/includes/class-tgm-plugin-activation.php:3103
 msgid "The following plugin was activated successfully:"
-msgstr ""
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
 
+#. translators: 1: plugin name.
 #: library/includes/class-tgm-plugin-activation.php:403
 #, php-format
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
+#. translators: 1: plugin name.
 #: library/includes/class-tgm-plugin-activation.php:405
 #, php-format
-msgid ""
-"Plugin not activated. A higher version of %s is needed for this theme. "
-"Please update the plugin."
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
 msgstr ""
 
+#. translators: 1: dashboard link.
 #: library/includes/class-tgm-plugin-activation.php:407
 #, php-format
 msgid "All plugins installed and activated successfully. %1$s"
@@ -775,9 +781,7 @@ msgid "Dismiss this notice"
 msgstr ""
 
 #: library/includes/class-tgm-plugin-activation.php:409
-msgid ""
-"There are one or more required or recommended plugins to install, "
-"update or activate."
+msgid "There are one or more required or recommended plugins to install, update or activate."
 msgstr ""
 
 #: library/includes/class-tgm-plugin-activation.php:410
@@ -797,22 +801,16 @@ msgid "Set the parent_slug config variable instead."
 msgstr ""
 
 #: library/includes/class-tgm-plugin-activation.php:1042
-msgid ""
-"The remote plugin package does not contain a folder with the desired "
-"slug and renaming did not work."
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
 msgstr ""
 
 #: library/includes/class-tgm-plugin-activation.php:1042
 #: library/includes/class-tgm-plugin-activation.php:1052
-msgid ""
-"Please contact the plugin provider and ask them to package their "
-"plugin according to the WordPress guidelines."
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
 msgstr ""
 
 #: library/includes/class-tgm-plugin-activation.php:1052
-msgid ""
-"The remote plugin package consists of more than one file, but the "
-"files are not packaged in a folder."
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
 msgstr ""
 
 #: library/includes/class-tgm-plugin-activation.php:1243
@@ -821,6 +819,7 @@ msgctxt "plugin A *and* plugin B"
 msgid "and"
 msgstr ""
 
+#. translators: %s: version number
 #: library/includes/class-tgm-plugin-activation.php:2112
 #, php-format
 msgid "TGMPA v%s"
@@ -870,12 +869,14 @@ msgstr ""
 msgid "Update recommended"
 msgstr ""
 
+#. translators: 1: install status, 2: update status
 #: library/includes/class-tgm-plugin-activation.php:2490
 #, php-format
 msgctxt "Install/Update Status"
 msgid "%1$s, %2$s"
 msgstr ""
 
+#. translators: 1: number of plugins.
 #: library/includes/class-tgm-plugin-activation.php:2536
 #, php-format
 msgctxt "plugins"
@@ -884,6 +885,7 @@ msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
+#. translators: 1: number of plugins.
 #: library/includes/class-tgm-plugin-activation.php:2540
 #, php-format
 msgid "To Install <span class=\"count\">(%s)</span>"
@@ -891,6 +893,7 @@ msgid_plural "To Install <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
+#. translators: 1: number of plugins.
 #: library/includes/class-tgm-plugin-activation.php:2544
 #, php-format
 msgid "Update Available <span class=\"count\">(%s)</span>"
@@ -898,6 +901,7 @@ msgid_plural "Update Available <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
+#. translators: 1: number of plugins.
 #: library/includes/class-tgm-plugin-activation.php:2548
 #, php-format
 msgid "To Activate <span class=\"count\">(%s)</span>"
@@ -942,16 +946,19 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
+#. translators: %2$s: plugin name in screen reader markup
 #: library/includes/class-tgm-plugin-activation.php:2751
 #, php-format
 msgid "Install %2$s"
 msgstr ""
 
+#. translators: %2$s: plugin name in screen reader markup
 #: library/includes/class-tgm-plugin-activation.php:2756
 #, php-format
 msgid "Update %2$s"
 msgstr ""
 
+#. translators: %2$s: plugin name in screen reader markup
 #: library/includes/class-tgm-plugin-activation.php:2762
 #, php-format
 msgid "Activate %2$s"
@@ -997,37 +1004,33 @@ msgstr ""
 msgid "No plugins are available to be activated at this time."
 msgstr ""
 
-#: library/includes/class-tgm-plugin-activation.php:3103
-msgid "The following plugins were activated successfully:"
-msgid_plural "The following plugin was activated successfully:"
-msgstr[0] ""
-msgstr[1] ""
-
 #: library/includes/class-tgm-plugin-activation.php:3310
 msgid "Plugin activation failed."
 msgstr ""
 
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: library/includes/class-tgm-plugin-activation.php:3655
 #, php-format
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
+#. translators: 1: plugin name, 2: error message.
 #: library/includes/class-tgm-plugin-activation.php:3658
 #, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
 
+#. translators: 1: plugin name.
 #: library/includes/class-tgm-plugin-activation.php:3660
 #, php-format
 msgid "The installation of %1$s failed."
 msgstr ""
 
 #: library/includes/class-tgm-plugin-activation.php:3664
-msgid ""
-"The installation and activation process is starting. This process may "
-"take a while on some hosts, so please be patient."
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
 msgstr ""
 
+#. translators: 1: plugin name.
 #: library/includes/class-tgm-plugin-activation.php:3666
 #, php-format
 msgid "%1$s installed and activated successfully."
@@ -1037,17 +1040,17 @@ msgstr ""
 msgid "All installations and activations have been completed."
 msgstr ""
 
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: library/includes/class-tgm-plugin-activation.php:3669
 #, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
 #: library/includes/class-tgm-plugin-activation.php:3672
-msgid ""
-"The installation process is starting. This process may take a while on "
-"some hosts, so please be patient."
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
 msgstr ""
 
+#. translators: 1: plugin name.
 #: library/includes/class-tgm-plugin-activation.php:3674
 #, php-format
 msgid "%1$s installed successfully."
@@ -1057,6 +1060,7 @@ msgstr ""
 msgid "All installations have been completed."
 msgstr ""
 
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: library/includes/class-tgm-plugin-activation.php:3677
 #, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
@@ -1108,6 +1112,7 @@ msgctxt "post author"
 msgid "by %s"
 msgstr ""
 
+#. translators: used between list items, there is a space after the comma
 #: library/includes/template-tags.php:112
 #: library/includes/template-tags.php:118
 msgid ", "
@@ -1135,6 +1140,7 @@ msgstr ""
 msgid "% Comments"
 msgstr ""
 
+#. translators: %s: Name of current post
 #: library/includes/template-tags.php:133
 #, php-format
 msgid "Edit %s"
@@ -1184,11 +1190,10 @@ msgstr ""
 
 #: library/template-parts/content-none.php:17
 #, php-format
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</"
-"a>."
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
+#. translators: %s: Name of current post.
 #: library/template-parts/content-search.php:57
 #: library/template-parts/content.php:44
 #, php-format
@@ -1227,7 +1232,8 @@ msgstr ""
 msgid "Find us on Flickr"
 msgstr ""
 
-#: product-searchform.php:22 searchform.php:17
+#: product-searchform.php:22
+#: searchform.php:17
 msgctxt "label"
 msgid "Search for:"
 msgstr ""
@@ -1237,7 +1243,20 @@ msgstr ""
 msgid "Search Results for: %s"
 msgstr ""
 
-#: trt-customize-pro/class-customize.php:76 upgrade/upgrade.php:14
+#. Template Name of the theme
+msgid "Full Width, No Bottom Margin"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full Width"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Left Sidebar"
+msgstr ""
+
+#: trt-customize-pro/class-customize.php:76
+#: upgrade/upgrade.php:14
 #: upgrade/upgrade.php:15
 msgid "Shopstar! Premium"
 msgstr ""
@@ -1256,17 +1275,12 @@ msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:18
 #, php-format
-msgid ""
-"<strong>All settings for Shopstar!</strong> are neatly built into the "
-"<a href=\"%s\">WordPress Customizer</a> allowing you to preview their "
-"effects before publishing them to your live site."
+msgid "<strong>All settings for Shopstar!</strong> are neatly built into the <a href=\"%s\">WordPress Customizer</a> allowing you to preview their effects before publishing them to your live site."
 msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:21
 #, php-format
-msgid ""
-"<strong><a href=\"%s\" target=\"_blank\">Read a guide on how to "
-"install the Premium theme</a></strong>"
+msgid "<strong><a href=\"%s\" target=\"_blank\">Read a guide on how to install the Premium theme</a></strong>"
 msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:30
@@ -1274,9 +1288,7 @@ msgid "Elementor Page Layouts"
 msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:33
-msgid ""
-"Shopstar! Premium offers a range of Elementor page layouts "
-"conveniently built into the theme."
+msgid "Shopstar! Premium offers a range of Elementor page layouts conveniently built into the theme."
 msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:41
@@ -1284,9 +1296,7 @@ msgid "Shopstar! Premium is a once off payment of $25"
 msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:45
-msgid ""
-"View the Shopstar! Premium demo and try out all the settings neatly "
-"built into the Customizer"
+msgid "View the Shopstar! Premium demo and try out all the settings neatly built into the Customizer"
 msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:49
@@ -1299,9 +1309,7 @@ msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:57
 #, php-format
-msgid ""
-"Or learn more about <a href=\"%s\" target=\"_blank\">creating / "
-"editing a Child Theme</a>"
+msgid "Or learn more about <a href=\"%s\" target=\"_blank\">creating / editing a Child Theme</a>"
 msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:61
@@ -1309,9 +1317,7 @@ msgid "Shopstar! Child Theme"
 msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:68
-msgid ""
-"We have growing documentation to help you set up your website using "
-"Shopstar!."
+msgid "We have growing documentation to help you set up your website using Shopstar!."
 msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:79
@@ -1328,28 +1334,20 @@ msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:89
 #, php-format
-msgid ""
-"Theme: Shopstar!, built by <a href=\"%s\" target=\"_blank\">Out the "
-"Box</a>"
+msgid "Theme: Shopstar!, built by <a href=\"%s\" target=\"_blank\">Out the Box</a>"
 msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:98
-msgid ""
-"We aim to keep our prices lower than other theme shops while still "
-"offering you quality WordPress themes."
+msgid "We aim to keep our prices lower than other theme shops while still offering you quality WordPress themes."
 msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:100
-msgid ""
-"Upgrading will support us and enable us to keep building WordPress "
-"themes."
+msgid "Upgrading will support us and enable us to keep building WordPress themes."
 msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:102
 #, php-format
-msgid ""
-"If you're enjoying using Shopstar! please let us know by <a href='%s' "
-"target='_blank'>giving us a rating</a>."
+msgid "If you're enjoying using Shopstar! please let us know by <a href='%s' target='_blank'>giving us a rating</a>."
 msgstr ""
 
 #: upgrade/library/template-parts/content-upgrade.php:106

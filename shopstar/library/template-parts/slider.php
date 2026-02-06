@@ -29,14 +29,24 @@ else :
 			            				
 				<ul class="slider">
 					                    
-					<?php 
-					while ( $slider_query->have_posts() ) : $slider_query->the_post(); 
+					<?php
+					$slide_i = 0;
+
+					while ( $slider_query->have_posts() ) : $slider_query->the_post();
+						$is_first = ( 0 === $slide_i );
+
+						$thumb_attrs = array(
+							'decoding'      => 'async',
+							'loading'       => $is_first ? 'eager' : 'lazy',
+							'fetchpriority' => $is_first ? 'high' : 'low',
+							'sizes'         => '100vw',
+						);
 					?>
-			                    
+
 					<li class="slide">
 						<?php
 						if ( has_post_thumbnail() ) :
-							the_post_thumbnail( 'full', array( 'class' => '' ) );
+							the_post_thumbnail( 'full', $thumb_attrs );
 						endif;
 						?>
 			                            
@@ -48,6 +58,7 @@ else :
 					</li>
 			                    
 					<?php
+						$slide_i++;
 					endwhile;
 					?>
 			                    
@@ -71,12 +82,20 @@ else :
 			<ul class="slider">
 				                    
 				<?php
+				$slide_i = 0;
 				foreach ( $shopstar_demo_slides as $slide ) {
+					$is_first = ( 0 === $slide_i );
 				?>
 					                    
 				<li class="slide">
-					<img src="<?php echo $slide['image']; ?>" alt="<?php esc_attr_e('Demo Slide', 'shopstar') ?>" />
-		                            
+					<img
+						src="<?php echo esc_url( $slide['image'] ); ?>"
+						alt="<?php echo esc_attr__( 'Demo Slide', 'shopstar' ); ?>"
+						decoding="async"
+						loading="<?php echo $is_first ? 'eager' : 'lazy'; ?>"
+						fetchpriority="<?php echo $is_first ? 'high' : 'low'; ?>"
+					/>
+
 					<div class="overlay">
 						<?php
 							echo ( trim( $slide['text'] ) );
@@ -85,6 +104,7 @@ else :
 				</li>
 		                    
 				<?php
+					$slide_i++;
 				}
 				?>
 		                    

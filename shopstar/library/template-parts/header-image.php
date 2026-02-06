@@ -19,7 +19,7 @@
 	$alt_text = get_post_meta( $attachment_id, '_wp_attachment_image_alt', true);
 	?>
 	
-	<img src="<?php esc_url( header_image() ); ?>" alt="<?php echo $alt_text; ?>" height="<?php echo get_custom_header()->height ?>" width="<?php echo get_custom_header()->width ?>" />
+	<img src="<?php esc_url( header_image() ); ?>" alt="<?php echo esc_attr( $alt_text ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" loading="eager" decoding="async" fetchpriority="high" />
 	
 	<?php
 	if ( pll__( get_theme_mod( 'shopstar-header-image-text', customizer_library_get_default( 'shopstar-header-image-text' ) ) ) != "" ) {

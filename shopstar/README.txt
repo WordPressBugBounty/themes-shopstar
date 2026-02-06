@@ -2,7 +2,7 @@
 Contributors: Out the Box
 Donate link: 
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, wide-blocks, e-commerce, photography, portfolio
-Tested up to: 6.8
+Tested up to: 6.9
 Requires at least: 4.7
 Requires PHP: 5.3
 Stable tag: 3.7
@@ -95,6 +95,25 @@ View the theme settings under "Appearance" -> Customize.
 2. Featured Images work best at a minimum of 1100 wide and 420 high.
 
 == Changelog ==
+
+#### 1.1.61
+* Tweak: Improved slider image loading to reduce layout shift and improve page load performance
+
+#### 1.1.60
+* Tweak: Improved header image performance by optimizing loading, decoding and fetch priority
+
+#### 1.1.59
+* Tweak: Enhanced skip-to-content accessibility support for improved compatibility with accessibility plugins such as EqualWeb
+
+#### 1.1.58
+* WordPress 6.9 compatibility update
+
+#### 1.1.57
+* PREMIUM: Added Logo Width and Mobile Logo Width settings
+* Tweak: Improved code security by adding sanitization to URL parameters
+
+#### 1.1.56
+* New: Added a theme setting under Privacy & Legal to toggle the display of the reCAPTCHA badge
 
 #### 1.1.55
 * New: Added default styling for the Elementor Image Box widget
