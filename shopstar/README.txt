@@ -96,6 +96,9 @@ View the theme settings under "Appearance" -> Customize.
 
 == Changelog ==
 
+#### 1.1.62
+* Tweak: Mobile menu toggle accessibility - added ARIA labelling
+
 #### 1.1.61
 * Tweak: Improved slider image loading to reduce layout shift and improve page load performance
 
