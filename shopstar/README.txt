@@ -96,6 +96,10 @@ View the theme settings under "Appearance" -> Customize.
 
 == Changelog ==
 
+#### 1.1.63
+* New: Added base styling support for WooCommerce PDF Invoices & Packing Slips plugin
+* New: Improved invoice readability and table layout
+
 #### 1.1.62
 * Tweak: Mobile menu toggle accessibility - added ARIA labelling
 

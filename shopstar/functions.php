@@ -6,7 +6,7 @@
  *
  * @package shopstar
  */
-define( 'SHOPSTAR_THEME_VERSION' , '1.1.62' );
+define( 'SHOPSTAR_THEME_VERSION' , '1.1.63' );
 
 global $shopstar_demo_slides;
 
@@ -907,6 +907,10 @@ if ( ! function_exists( 'shopstar_out_of_stock_notice' ) ) {
 	}
 }
 add_action( 'woocommerce_after_shop_loop_item_title', 'shopstar_out_of_stock_notice', 10 );
+
+if ( class_exists( 'WPO_WCPDF' ) && file_exists( get_template_directory() . '/library/includes/woocommerce-pdf-invoices.php' ) ) {
+	require get_template_directory() . '/library/includes/woocommerce-pdf-invoices.php';
+}
 
 if ( ! function_exists( 'shopstar_excerpt_length' ) ) {
 	function shopstar_excerpt_length( $length ) {
